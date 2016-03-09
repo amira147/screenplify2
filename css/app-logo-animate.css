@@ -1,0 +1,95 @@
+		/*http://codepen.io/Bidji/pen/dPEzwq/*/
+		.svg-logo{
+			left: -66px;
+		    position: absolute;
+		    top: 8px;
+		}
+
+		/*#svg-logo {max-height: 200px;}*/
+		#svg-logo {max-height: 50px;}
+		/*#svg-logo polygon:nth-child(1),
+		#svg-logo polygon:nth-child(8),
+		#svg-logo polygon:nth-child(9) {
+		  -webkit-animation: pweek 1.8s linear infinite;
+		  animation: pweek 1.8s linear infinite;
+		  -webkit-animation-delay: 0.1s;
+		  animation-delay: 0.1s;
+		}
+
+		#svg-logo polygon:nth-child(2),
+		#svg-logo polygon:nth-child(7) {
+		  -webkit-animation: pweek 1.8s linear infinite;
+		  animation: pweek 1.8s linear infinite;
+		  -webkit-animation-delay: 0.2s;
+		  animation-delay: 0.2s;
+		}
+
+		#svg-logo polygon:nth-child(3),
+		#svg-logo polygon:nth-child(6) {
+		  -webkit-animation: pweek 1.8s linear infinite;
+		  animation: pweek 1.8s linear infinite;
+		  -webkit-animation-delay: 0.3s;
+		  animation-delay: 0.3s;
+		}
+
+		#svg-logo polygon:nth-child(4) {
+		  -webkit-animation: pweek 1.8s linear infinite;
+		  animation: pweek 1.8s linear infinite;
+		  -webkit-animation-delay: 0.4s;
+		  animation-delay: 0.4s;
+		}
+
+		#svg-logo polygon:nth-child(5) {
+		  -webkit-animation: pweek 1.8s linear infinite;
+		  animation: pweek 1.8s linear infinite;
+		  -webkit-animation-delay: 0.5s;
+		  animation-delay: 0.5s;
+		}*/
+
+		/*#svg-logo polygon:nth-child(9) {
+		  -webkit-animation: pweek 1.8s linear infinite;
+		  animation: pweek 1.8s linear infinite;
+		  -webkit-animation-delay: 0.5s;
+		  animation-delay: 0.5s;
+		}*/
+
+		@-webkit-keyframes pweek {
+		  0% {
+		    opacity: .32;
+		  }
+		  /*20% {
+		    opacity: .5;
+		  }
+		  40% {
+		    opacity: .32;
+		  }
+		  60% {
+		    opacity: .8;
+		  }
+		  80% {
+		    opacity: .32;
+		  }*/
+		  100% {
+		    opacity: 1;
+		  }
+		}
+		@keyframes pweek {
+		  0% {
+		    opacity: .32;
+		  }
+		  /*20% {
+		    opacity: .5;
+		  }
+		  40% {
+		    opacity: .32;
+		  }
+		  60% {
+		    opacity: .8;
+		  }
+		  80% {
+		    opacity: .32;
+		  }*/
+		  100% {
+		    opacity: 1;
+		  }
+		}
