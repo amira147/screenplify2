@@ -1,4 +1,9 @@
-﻿<!DOCTYPE html>
+﻿<?php 
+
+include('db.php');
+
+?>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -110,12 +115,12 @@
         <!-- CONTENT --------------------------------------------------------------------------------->
 
         <!-- Intro Section -->
-        <section class="inner-intro bg-img8 light-color overlay-dark parallax parallax-background2">
+        <section class="inner-intro bg-img26 overlay-dark light-color parallax parallax-background2">
             <div class="container">
                 <div class="row title">
-                    <h2 class="h2">Contact Us</h2>
+                    <h2 class="h2">Blog</h2>
                     <div class="page-breadcrumb">
-                        <a href="index">Home</a>/<span>Contact</span>
+                        <a href="index">Home</a>/<a>Blog</a>
                     </div>
                 </div>
             </div>
@@ -123,105 +128,146 @@
         <div class="clearfix"></div>
         <!-- End Intro Section -->
 
-
-        <!-- Contact Section -->
+        <!-- Blog Post Section -->
         <section class="ptb ptb-sm-80">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center">
-                        <h3>Get In Touch</h3>
-                        <p class="lead">Request a quotation or ask us your questions and we'll be happy to help.</p>
-                    </div>
-                </div>
-                <div class="spacer-75"></div>
-                <div class="row">
-                    <div class="col-md-5 contact">
-                        <div class="contact-box-left mb-45">
-                            <div class="contact-icon-left"><i class="ion ion-ios-location"></i></div>
-                            <h6>Additional info</h6>
-                            <p>
-                                Office 13 Resource Center, <br />
-                                Technology Park Malaysia, <br />
-                                Lebuhraya Puchong - Sg. Besi, <br />
-                                57000 Bukit Jalil, Kuala Lumpur, <br />
-                                Malaysia
-                            </p>
-                            <!-- <a href="mailto:yourname@domain.com"><i class="fa fa-envelope-o left"></i>yourname@domain.com</a><br /> -->
-                            <!-- <a><i class="fa fa-phone left"></i>+40 (0) 012 345 6789</a> -->
-                            <a href="mailto:info@omniphics.com"><i class="fa fa-envelope-o left"></i>info@omniphics.com</a><br />
-                            <a href="tel:+60122989995"><i class="fa fa-phone left"></i>+60122989995</a>
-                        </div>
-                        <div class="contact-box-left mb-45">
-                            <div class="contact-icon-left"><i class="ion ion-ios-clock"></i></div>
-                            <h6>Business Hours</h6>
-                            <p>
-                                <span>Mon - Fri : 8.30am to 6pm</span>
-                            </p>
-                        </div>
-                        <!-- <div class="contact-box-left mb-45">
+                    <!-- Post Item -->
+                    <div class="col-lg-9 col-md-9">
+                        <div class="row">
 
-                            <h6>Follow Us</h6>
-                            <ul class="list-none social">
-                                <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://instagram.com/screenplify" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <li><a href="https://vimeo.com/" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
-                                <li><a href="https://www.behance.net/" target="_blank"><i class="fa fa-behance"></i></a></li>
+                            <div class="col-md-12 blog-post-hr">
+
+                                <?php
+                                $sql="SELECT*FROM tbl_post";
+                                $result=mysql_query($sql) or die (mysql_error());
+                                mysql_close();
+                                
+                                while ($row=mysql_fetch_array($result))
+                                {
+                                ?>
+                                <div class="blog-post mb-30">
+                                    <div class="post-media">
+                                        <?php if($row['media_type']=="image"){ ?>
+                                            <img src="<?php echo $row['media_link']; ?>" alt="" />
+                                        <?php }else if($row['media_type']=="video"){ ?>
+                                            <iframe width="560" height="315" src="https://www.youtube.com/embed/S_kXyWhBB10" frameborder="0" allowfullscreen></iframe>
+                                        <?php } ?>
+                                        <!-- <div class="owl-carousel item1-carousel nf-carousel-theme">
+                                            <div class="item">
+                                                <img src="img/full/26.jpg" alt="" />
+                                            </div>
+                                            <div class="item">
+                                                <img src="img/full/04.jpg" alt="" />
+                                            </div>
+                                            <div class="item">
+
+                                                <img src="img/full/28.jpg" alt="" />
+                                            </div>
+                                        </div> -->
+                                    </div>
+                                    <div class="post-meta"><span>by <a><?php echo $row['author']; ?></a>,</span> <span><?php echo $row['created_datetime']; ?></span></div>
+                                    <div class="post-header">
+                                        <h4><a href="post/<?php echo $row['url_title']; ?>"><?php echo $row['title']; ?></a></h4>
+                                    </div>
+                                    <div class="post-entry">
+                                        <?php echo $row['text']; ?>
+                                    </div>
+                                    <!-- <div class="post-tag pull-left"><span><a>Branding</a>,</span><span><a>Design</a></span></div> -->
+                                    <div class="post-more-link pull-right"><a href="post/<?php echo $row['url_title']; ?>">Read More<i class="fa fa-long-arrow-right right"></i></a></div>
+                                </div>
+
+                                <?php
+                                }  //end blog post foreach
+                                ?>
+
+                                <hr />
+
+                            </div>
+
+                        </div>
+
+                        <!-- Pagination Nav -->
+                        <!-- <div class="pagination-nav text-left mt-60 mtb-xs-30">
+                            <ul>
+                                <li><a href="#"><i class="fa fa-angle-left"></i></a></li>
+                                <li class="active"><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"></i></a></li>
                             </ul>
                         </div> -->
+                        <!-- End Pagination Nav -->
+
                     </div>
-                    <div class="col-md-6 col-md-offset-1">
-                        <!-- Contact FORM -->
-                        <form class="contact-form" id="contact" role="form">
+                    <!-- End Post Item -->
 
-                            <!-- IF MAIL SENT SUCCESSFULLY -->
-                            <h6 class="successContent">
-                                <i class="fa fa-check left" style="color: #5cb45d;"></i>Your message has been sent successfully.
-                            </h6>
-                            <!-- END IF MAIL SENT SUCCESSFULLY -->
+                    <!-- Sidebar -->
+                    <div class="col-lg-3 col-md-3 mt-sm-60">
 
-                            <!-- MAIL SENDING UNSUCCESSFULL -->
-                            <h6 class="errorContent">
-                                <i class="fa fa-exclamation-circle left" style="color: #e1534f;"></i>There was a problem validating the form please check!
-                            </h6>
-                            <!-- END MAIL SENDING UNSUCCESSFULL -->
-
-                            <div class="form-field-wrapper">
-                                <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="Your Name" required>
+                        <div class="sidebar-widget">
+                            <h5>Search</h5>
+                            <div class="widget-search">
+                                <input class="form-full input-lg" type="text" value="" placeholder="Search Here" name="search" id="wid-search">
+                                <input type="submit" value="" name="email" id="wid-s-sub">
                             </div>
+                        </div>
 
-                            <div class="form-field-wrapper">
-                                <input class="input-sm form-full" id="form-email" type="email" name="form-email" placeholder="Email" required>
-                            </div>
+                        <div class="sidebar-widget">
+                            <h5>Categories</h5>
+                            <hr>
+                            <ul>
+                                <li><a>Photography</a></li>
+                                <li><a>Web Design</a></li>
+                                <li><a>Lifestyle</a></li>
+                                <li><a>Responsive</a></li>
+                                <li><a>MultiPurpose Theme</a></li>
+                                <li><a>Agency</a></li>
+                                <li><a>Portfolio</a></li>
+                            </ul>
+                        </div>
 
-                            <div class="form-field-wrapper">
-                                <input class="input-sm form-full" id="form-mobile" type="text" name="form-mobile" placeholder="Mobile">
-                            </div>
+                        <div class="sidebar-widget">
+                            <h5>Recent Post</h5>
+                            <hr>
+                            <ul class="widget-post">
+                                <li>
+                                    <a class="widget-post-media">
+                                        <img src="img/portfolio/21.jpg">
+                                    </a>
+                                    <div class="widget-post-info">
+                                        <h6><a>veritatis et quasi</a></h6>
+                                        <div class="post-meta"><span>March 16, 2015</span></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="widget-post-media">
+                                        <img src="img/portfolio/32.jpg">
+                                    </a>
+                                    <div class="widget-post-info">
+                                        <h6><a>Sed fringilla mauris</a></h6>
+                                        <div class="post-meta"><span>March 09, 2015</span></div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="widget-post-media">
+                                        <img src="img/portfolio/31.jpg">
+                                    </a>
+                                    <div class="widget-post-info">
+                                        <h6><a>harum quidem rerum</a></h6>
+                                        <div class="post-meta"><span>March 04, 2015</span></div>
+                                    </div>
+                                </li>
 
-                            <div class="form-field-wrapper">
-                                <textarea class="form-full" id="form-message" rows="7" name="form-message" placeholder="Your Message" required></textarea>
-                            </div>
+                            </ul>
+                        </div>
 
-                            <div class="form-field-wrapper">
-                                <img src="captcha_code_file.php?rand=<?php echo rand(); ?>" id="captchaimg" style="margin-bottom: 5px;">
-                                <br/>
-                                <input class="input-md form-full" id="6_letters_code" name="6_letters_code" type="text" placeholder="Enter Captcha Code">
-                            </div>
-
-                            <button class="btn btn-md btn-black form-full" type="submit" id="form-submit" name="submit">Send Message</button>
-                        </form>
-                        <!-- END Contact FORM -->
                     </div>
+                    <!-- End Sidebar -->
                 </div>
             </div>
         </section>
-        <!-- Contact Section -->
-
-        <!-- Map Section -->
-        <section class="map">
-            <div id="map"></div>
-        </section>
-        <!-- Map Section -->
+        <!-- End Blog Post Section -->
 
         <!-- End CONTENT ------------------------------------------------------------------------------>
 
@@ -283,11 +329,9 @@
     <script src="js/plugin/jPushMenu.js" type="text/javascript"></script>
     <script src="js/plugin/jquery.fs.tipper.min.js" type="text/javascript"></script>
     <script src="js/plugin/mediaelement-and-player.min.js"></script>
-    <script src="js/plugin/jquery.validate.min.js" type="text/javascript"></script>
     <script src="js/theme.js" type="text/javascript"></script>
     <script src="js/navigation.js" type="text/javascript"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <script type="text/javascript" src="js/map.js"></script>
-    <script src="js/contact-form.js" type="text/javascript"></script>
+
+
 </body>
 </html>

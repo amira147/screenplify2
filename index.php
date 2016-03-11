@@ -73,30 +73,23 @@
                 <nav class='navigation'>
                     <ul>
                         <li>
-                            <a href="index.php">Home</a>
+                            <a href="index">Home</a>
                         </li>
 
                         <li class="nav-has-sub">
-                            <a href="features.php">Features</a>
+                            <a href="features">Features</a>
                         </li>
                         
                         <li>
-                            <a href="spark.php">Spark</a>
+                            <a href="spark">Spark</a>
                         </li>
                         
                         <li>
-                            <a href="portfolio.php">Portfolio</a>
-                            <!-- Nav Dropdown -->
-                            <!-- <ul class="nav-dropdown">
-                                <li><a href="portfolio.php/#clients">Clients</a></li>
-                                <li><a href="portfolio.php/#partners">Partners</a></li>
-                                <li><a href="portfolio.php/#gallery">Gallery</a></li>
-                            </ul> -->
-                            <!-- End Nav Dropdown -->
+                            <a href="portfolio">Portfolio</a>
                         </li>
                         
                         <li>
-                            <a>Blog</a>
+                            <a href="blog">Blog</a>
                         </li>
                         
                         <li>
@@ -104,7 +97,7 @@
                         </li>
 
                         <li>
-                            <a href="contact.php">Contact</a>
+                            <a href="contact">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -154,7 +147,7 @@
                                     <h2 class="h2">Create and Manage <br> Feature-packed Displays</h2>
                                     <p class="lead">Maximum impact, minimal effort</p>
                                     <br />
-                                    <div><a href="features.php" class="btn btn-md btn-white">Learn More</a></div>
+                                    <div><a href="features" class="btn btn-md btn-white">Learn More</a></div>
                                 </div>
                             </div>
                         </div>
@@ -383,7 +376,7 @@
                     <div class="col-md-8 col-md-offset-2">
                         <h4>Look no further. <br/>We've got your Digital Signage needs covered.</h4>
                         <div class="spacer-15"></div>
-                        <a class="btn btn-md btn-white" href="contact.php">Get Quotation</a>
+                        <a class="btn btn-md btn-white" href="contact">Get Quotation</a>
                     </div>
                 </div>
             </div>

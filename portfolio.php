@@ -73,38 +73,31 @@
                 <nav class='navigation'>
                     <ul>
                         <li>
-                            <a href="index.php">Home</a>
+                            <a href="index">Home</a>
                         </li>
 
                         <li class="nav-has-sub">
-                            <a href="features.php">Features</a>
+                            <a href="features">Features</a>
                         </li>
                         
                         <li>
-                            <a href="spark.php">Spark</a>
+                            <a href="spark">Spark</a>
                         </li>
                         
                         <li>
-                            <a href="portfolio.php">Portfolio</a>
-                            <!-- Nav Dropdown -->
-                            <!-- <ul class="nav-dropdown">
-                                <li><a href="portfolio.php/#clients">Clients</a></li>
-                                <li><a href="portfolio.php/#partners">Partners</a></li>
-                                <li><a href="portfolio.php/#gallery">Gallery</a></li>
-                            </ul> -->
-                            <!-- End Nav Dropdown -->
+                            <a href="portfolio">Portfolio</a>
                         </li>
                         
-                        <!-- <li>
-                            <a>Blog</a>
-                        </li> -->
+                        <li>
+                            <a href="blog">Blog</a>
+                        </li>
                         
                         <li>
                             <a>FAQ</a>
                         </li>
 
                         <li>
-                            <a href="contact.php">Contact</a>
+                            <a href="contact">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -122,7 +115,7 @@
                 <div class="row title">
                     <h2 class="h2">Portfolio</h2>
                     <div class="page-breadcrumb">
-                        <a href="portfolio.php">Home</a>/<span>Portfolio</span>
+                        <a href="portfolio">Home</a>/<span>Portfolio</span>
                     </div>
                 </div>
             </div>
@@ -141,65 +134,23 @@
                 </div>
                 <div class="spacer-75"></div>
                 <div class="row">
+
+                    <?php
+
+                    $dir = "img/clients/*";
+                    foreach(glob($dir) as $file) {
+                      $pathinfo = pathinfo($file);
+                        // echo $pathinfo['filename'].'.'.$pathinfo['extension'];
+                      // print_r($pathinfo);
+                      $filepath = "img/clients/".$pathinfo['filename'].'.'.$pathinfo['extension'];
+
+                    ?>
+
                     <div class="col-md-4">
-                        <img src="img/logos/altel.png" />
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/logos/bv.png" />
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/logos/bv2.png" />
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <img src="img/logos/chermainepoo.png" />
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/logos/excelcos.png" />
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/logos/ges.png" />
+                        <img src="<?php echo $filepath;?>" class="center-block" />
                     </div>
                     
-                    <div class="col-md-4">
-                        <img src="img/logos/homedec.png" />
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/logos/ioiproperty.png" />
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/logos/itxasia.png" />
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <img src="img/logos/klims.png" />
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/logos/macy.png" />
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/logos/mahsing.png" />
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <img src="img/logos/matta.png" />
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/logos/mydin.png" />
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/logos/startupmalaysia.png" />
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <img src="img/logos/sunwayproperty.png" />
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/logos/tedxkl.png" />
-                    </div>
-                    <div class="col-md-4">
-                        <img src="img/logos/tpm.png" />
-                    </div>
+                    <?php } ?>
                 </div>
             </div>
         </section>
@@ -248,15 +199,15 @@
                 <div class="spacer-75"></div>
                 <div class="row">
                     <div class="partner-logo col-md-4 ">
-                        <img src="img/logos/intel.png" class="center-block" />
+                        <img src="img/partners/intel.png" class="center-block" />
                     </div>
                     
                     <div class="partner-logo col-md-4 ">
-                        <img src="img/logos/focusmedia.png" class="center-block" />
+                        <img src="img/partners/focusmedia.png" class="center-block" />
                     </div>
                     
                     <div class="partner-logo col-md-4 ">
-                        <img src="img/logos/vsign.png" class="center-block" />
+                        <img src="img/partners/vsign.png" class="center-block" />
                     </div>
                 </div>
                 
@@ -264,10 +215,10 @@
                 
                 <div class="row">
                     <div class="partner-logo col-md-4 ">
-                        <img src="img/logos/armodilo.png" class="center-block" />
+                        <img src="img/partners/armodilo.png" class="center-block" />
                     </div>
                     <div class="partner-logo col-md-4 ">
-                        <img src="img/logos/omniphics.png" class="center-block" />
+                        <img src="img/partners/omniphics.png" class="center-block" />
                     </div>
                 </div>
             </div>
@@ -297,7 +248,7 @@
                                 );
 
                             $dir = "img/gallery/*";
-                            foreach(glob($dir) as $file) {  
+                            foreach(glob($dir) as $file) {
                               $pathinfo = pathinfo($file);
                                 // echo $pathinfo['filename'].'.'.$pathinfo['extension'];
                               // print_r($pathinfo);

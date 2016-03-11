@@ -3945,6 +3945,14 @@ ul.content-list li{
 }
 
 /* Spark page */
+#spark-logo{
+    height: 150px;
+    width: 280px;
+    background: url(../img/spark-logo-white.png) no-repeat;
+    background-size: contain;
+    margin: 0 auto 15px;
+}
+
 #spark-info .item .content-block {
     height: 640px;
     display: table;
@@ -3955,4 +3963,5 @@ ul.content-list li{
     vertical-align: middle;
 }
 
+/* Portfolio page */
 

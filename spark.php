@@ -73,38 +73,31 @@
                 <nav class='navigation'>
                     <ul>
                         <li>
-                            <a href="index.php">Home</a>
+                            <a href="index">Home</a>
                         </li>
 
                         <li class="nav-has-sub">
-                            <a href="features.php">Features</a>
+                            <a href="features">Features</a>
                         </li>
                         
                         <li>
-                            <a href="spark.php">Spark</a>
+                            <a href="spark">Spark</a>
                         </li>
                         
                         <li>
-                            <a href="portfolio.php">Portfolio</a>
-                            <!-- Nav Dropdown -->
-                            <!-- <ul class="nav-dropdown">
-                                <li><a href="portfolio.php/#clients">Clients</a></li>
-                                <li><a href="portfolio.php/#partners">Partners</a></li>
-                                <li><a href="portfolio.php/#gallery">Gallery</a></li>
-                            </ul> -->
-                            <!-- End Nav Dropdown -->
+                            <a href="portfolio">Portfolio</a>
                         </li>
                         
-                        <!-- <li>
-                            <a>Blog</a>
-                        </li> -->
+                        <li>
+                            <a href="blog">Blog</a>
+                        </li>
                         
                         <li>
                             <a>FAQ</a>
                         </li>
 
                         <li>
-                            <a href="contact.php">Contact</a>
+                            <a href="contact">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -120,9 +113,10 @@
         <section class="inner-intro bg-img8 light-color overlay-dark parallax parallax-background2">
             <div class="container">
                 <div class="row title">
-                    <h2 class="h2">Spark</h2>
+                    <div id="spark-logo"></div>
+                    <!-- <h2 class="h2">Spark</h2> -->
                     <div class="page-breadcrumb">
-                        <a href="index.php">Home</a>/<span>Spark</span>
+                        <a href="index">Home</a>/<span>Spark</span>
                     </div>
                 </div>
             </div>
@@ -149,12 +143,13 @@
 
         <!--Spark Information Section-->
         <section id="spark-info" class="section-padding"  style="min-height:430px;padding-top: 0px;padding-bottom: 0px;">
+            
             <div class="container item">
                 <div class="row">
-                    <div class="col-md-6 mb-sm-30 content-block">
+                    <div class="col-md-6 mb-sm-30 content-block wow fadeInLeft" data-wow-duration="2s">
                         <img src="img/website_images_1.png" alt="spark advert screen" class="center-block" style="height: 650px;width: auto;"/>
                     </div>
-                    <div class="col-md-6 content-block">
+                    <div class="col-md-6 content-block wow fadeInRight" data-wow-duration="2s">
                         <div class="content-text">
                             <h4 class="content-title">Happy audience, successful event</h4>
                             <p>Spark screens was designed to display vibrant, smart, and detail-oriented agenda boards and conference programmes for events.</p>
@@ -163,17 +158,18 @@
                     </div>
                 </div>
             </div>
+
             <div class="spacer-30"></div>
             <div class="container item">
                 <div class="row">
-                    <div class="col-md-5 col-md-offset-1 mb-sm-30 content-block">
+                    <div class="col-md-5 col-md-offset-1 mb-sm-30 content-block wow fadeInLeft" data-wow-duration="2s">
                         <div class="content-text">
                             <h4 class="content-title">Eye-catching content</h4>
                             <p>Timed visitor announcements throughout the day are the best way to communicate to visitors.</p>
                             <p>Exhibitor discovery adverts provide fantastic exposure for exhibitors. They can also generate significant sponsorship revenue for the organiser.</p>
                         </div>
                     </div>
-                    <div class="col-md-6 content-block">
+                    <div class="col-md-6 content-block wow fadeInRight" data-wow-duration="2s">
                         <img src="img/website_images_2.png" alt="spark advert screen" class="center-block" style="height: 650px;width: auto;"/>
                     </div>
 
@@ -181,10 +177,10 @@
             </div>
             <div class="container item">
                 <div class="row">
-                    <div class="col-md-6 mb-sm-30 content-block">
+                    <div class="col-md-6 mb-sm-30 content-block wow fadeInLeft" data-wow-duration="2s">
                         <img src="img/website_images_3.png" alt="spark advert screen" class="center-block" style="height: 650px;width: auto;"/>
                     </div>
-                    <div class="col-md-6 content-block">
+                    <div class="col-md-6 content-block wow fadeInRight" data-wow-duration="2s">
                         <div class="content-text">
                             <h4 class="content-title">For all kinds of Digital Screens</h4>
                             <p>Display your event programme on any screen size of your choice, with either landscape or portrait orientation.</p>

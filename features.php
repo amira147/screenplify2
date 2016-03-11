@@ -73,7 +73,7 @@
                 <nav class='navigation'>
                     <ul>
                         <li>
-                            <a href="index.php">Home</a>
+                            <a href="index">Home</a>
                         </li>
 
                         <li class="nav-has-sub">
@@ -81,30 +81,23 @@
                         </li>
                         
                         <li>
-                            <a href="spark.php">Spark</a>
+                            <a href="spark">Spark</a>
                         </li>
                         
                         <li>
-                            <a href="portfolio.php">Portfolio</a>
-                            <!-- Nav Dropdown -->
-                            <!-- <ul class="nav-dropdown">
-                                <li><a href="portfolio.php/#clients">Clients</a></li>
-                                <li><a href="portfolio.php/#partners">Partners</a></li>
-                                <li><a href="portfolio.php/#gallery">Gallery</a></li>
-                            </ul> -->
-                            <!-- End Nav Dropdown -->
+                            <a href="portfolio">Portfolio</a>
                         </li>
                         
-                        <!-- <li>
-                            <a>Blog</a>
-                        </li> -->
+                        <li>
+                            <a href="blog">Blog</a>
+                        </li>
                         
                         <li>
                             <a>FAQ</a>
                         </li>
 
                         <li>
-                            <a href="contact.php">Contact</a>
+                            <a href="contact">Contact</a>
                         </li>
                     </ul>
                 </nav>
@@ -122,7 +115,7 @@
                 <div class="row title">
                     <h2 class="h2">Features</h2>
                     <div class="page-breadcrumb">
-                        <a href="index.php">Home</a>/<span>Features</span>
+                        <a href="index">Home</a>/<span>Features</span>
                     </div>
                 </div>
             </div>
