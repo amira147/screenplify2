@@ -77,24 +77,27 @@
                         </li>
 
                         <li class="nav-has-sub">
-                            <a href="features.html">Features</a>
+                            <a href="features.php">Features</a>
                         </li>
                         
                         <li>
-                            <a>Portfolio</a>
+                            <a href="spark.php">Spark</a>
+                        </li>
+                        
+                        <li>
+                            <a href="portfolio.php">Portfolio</a>
                             <!-- Nav Dropdown -->
-                            <ul class="nav-dropdown">
-                                <li><a href="element-components.html">Clients</a></li>
-                                <li><a href="element-tabs-and-accordian.html">Partners</a></li>
-                                <li><a href="element-slider.html">Gallery</a></li>
-                            </ul>
+                            <!-- <ul class="nav-dropdown">
+                                <li><a href="portfolio.php/#clients">Clients</a></li>
+                                <li><a href="portfolio.php/#partners">Partners</a></li>
+                                <li><a href="portfolio.php/#gallery">Gallery</a></li>
+                            </ul> -->
                             <!-- End Nav Dropdown -->
                         </li>
                         
-                        <li>
+                        <!-- <li>
                             <a>Blog</a>
-                            <!-- End Nav Dropdown -->
-                        </li>
+                        </li> -->
                         
                         <li>
                             <a>FAQ</a>
@@ -162,17 +165,17 @@
                                 <span>Mon - Fri : 8.30am to 6pm</span>
                             </p>
                         </div>
-                        <div class="contact-box-left mb-45">
+                        <!-- <div class="contact-box-left mb-45">
 
                             <h6>Follow Us</h6>
                             <ul class="list-none social">
-                                <!-- <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li> -->
+                                <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="https://instagram.com/screenplify" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                <!-- <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li> -->
-                                <!-- <li><a href="https://vimeo.com/" target="_blank"><i class="fa fa-vimeo-square"></i></a></li> -->
-                                <!-- <li><a href="https://www.behance.net/" target="_blank"><i class="fa fa-behance"></i></a></li> -->
+                                <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                                <li><a href="https://vimeo.com/" target="_blank"><i class="fa fa-vimeo-square"></i></a></li>
+                                <li><a href="https://www.behance.net/" target="_blank"><i class="fa fa-behance"></i></a></li>
                             </ul>
-                        </div>
+                        </div> -->
                     </div>
                     <div class="col-md-6 col-md-offset-1">
                         <!-- Contact FORM -->
@@ -229,91 +232,33 @@
 
         <!-- End CONTENT ------------------------------------------------------------------------------>
 
-        <!-- FOOTER -->
-        <footer class="footer pt-80">
-            <div class="container">
-                <div class="row mb-60">
-                    <!-- Logo -->
-                    <div class="col-md-3 col-sm-3 col-xs-12 mb-xs-30">
-                        <a class="footer-logo" href="index.php">
-                            <img src="img/logo-black.png" /></a>
-                    </div>
-                    <!-- Logo -->
+        <!--Footer Section-->
+        <footer id="footer" class="footer ptb-80 gray-bg">
+            <div class="container text-center">
 
-                    <!-- Newsletter -->
-                    <div class="col-md-4 col-sm-5 col-xs-12 mb-xs-30">
-                        <div class="newsletter">
-                            <form>
-                                <input type="email" class="newsletter-input input-md newsletter-input mb-0" placeholder="Enter Your Email">
-                                <button class="newsletter-btn btn btn-xs btn-white" type="submit" value=""><i class="fa fa-angle-right mr-0"></i></button>
-                            </form>
-                        </div>
-                    </div>
-                    <!-- End Newsletter -->
+                <!-- Copyright -->
+                <p class="copyright mb-25">
+                    &copy; 2016 <a href="http://www.ounch.com"><b>Ounch Sdn Bhd</b></a>. All Rights Reserved.<br>
+                </p>
+                <!-- Copyright -->
 
-                    <!-- Social -->
-                    <div class="col-md-3 col-md-offset-2 col-sm-4 col-xs-12">
-                        <ul class="social">
-                            <li><a target="_blank" href="https://www.twitter.com/"><i class="fa fa-twitter"></i></a></li>
-                            <li><a target="_blank" href="https://instagram.com/"><i class="fa fa-instagram"></i></a></li>
-                            <li><a target="_blank" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="_blank" href="https://vimeo.com/"><i class="fa fa-vimeo-square"></i></a></li>
-                            <li><a target="_blank" href="https://www.behance.net/"><i class="fa fa-behance"></i></a></li>
-                        </ul>
-                    </div>
-                    <!-- End Social -->
-                </div>
-                <!--Footer Info -->
-                <div class="row footer-info mb-60">
-                    <div class="col-md-3 col-sm-12 col-xs-12 mb-sm-30">
-                        <p class="mb-xs-0">Our ante tincidunt tempus, Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros.</p>
-                        <a class="btn-link-a" href="about-1.html">Read More</a>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 mb-sm-30 mb-xs-0">
-                        <ul class="link">
-                            <li><a href="blog-grid-3col.html">Blog</a></li>
-                            <li><a href="portfolio-grid-3col.html">Portfolio</a></li>
-                            <li><a href="login-register.html">Login & Signup</a></li>
-                            <li><a href="faq-1.html">FAQ</a></li>
-                            <li><a href="about-1.html">About</a></li>
-                            <li><a href="service-1.html">Service</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 col-sm-6 col-xs-12 mb-sm-30">
-                        <ul class="link">
-                            <li><a href="contact-1.html">Contact Us</a></li>
-                            <li><a href="shop-checkout.html">Shopping Cart</a></li>
-                            <li><a href="404-error-1.html">404 Error</a></li>
-                            <li><a href="index.php">Home</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-md-3 col-sm-12 col-xs-12">
-                        <p>502, DieSachbearbeiter, Schönhauser Allee, 167c10435 Berlin,Germany.</p>
-                        <ul class="link-small">
-                            <li><a href="mailto:yourname@domain.com"><i class="fa fa-envelope-o left"></i>yourname@domain.com</a></li>
-                            <li><a><i class="fa fa-phone left"></i>+40 (0) 012 345 6789</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <!-- End Footer Info -->
+                <!-- Social -->
+                <ul class="social">
+                    <li>
+                        <a href="https://www.facebook.com/ounch" target="_blank"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.instagram.com/screenplify" target="_blank"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://www.twitter.com/ounchupdates" target="_blank"><i class="fa fa-twitter"></i></a>
+                    </li>
+                </ul>
+                <!-- End Social -->
+
             </div>
-
-            <hr />
-
-            <!-- Copyright Bar -->
-            <section class="copyright ptb-60">
-                <div class="container">
-                    <p class="">
-                        © 2015 <a><b>Mazel Template</b></a>. All Rights Reserved.
-                        <br />
-                        Template  by <a target="_blank" href="http://nileforest.com/"><b>nileforest</b></a>
-                    </p>
-                </div>
-            </section>
-            <!-- End Copyright Bar -->
-
         </footer>
-        <!-- END FOOTER -->
+        <!-- End Footer Section-->
 
         <!-- Scroll Top -->
         <a class="scroll-top">

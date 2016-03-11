@@ -1203,8 +1203,8 @@ form label.error {
     .header .logo a {
         position: relative;
         display: block;
-        width: 132px;
-        margin-top: 34px;
+        width: 145px;
+        margin-top: 22px;
     }
 
 .header.sticky .logo a {
@@ -3902,4 +3902,57 @@ ul.project-detail-block, .project-detail-block ul {
 .header.sticky .navigation ul li a{
     color:#fff;
 }
+
+.header.sticky .logo a {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 145px;
+    transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -webkit-transition: all 0.3s ease 0s;
+}
+
+/* listing */
+ul.content-list{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    float: none;
+    list-style-position: outside;
+    display: table;
+}
+
+ul.content-list li{
+    margin-bottom: 10px;
+    padding-left: 10px;
+    display: table-row;
+}
+
+/* Features page */
+.features-box-right,
+.features-box-left{
+    min-height: 170px;
+}
+
+#partners .partner-logo img{
+    max-height: 150px;
+}
+
+/* Testimonial page */
+#testimonial .owl-item{
+    min-height: 210px;
+}
+
+/* Spark page */
+#spark-info .item .content-block {
+    height: 640px;
+    display: table;
+}
+          
+#spark-info .item .content-text {
+    display:table-cell;
+    vertical-align: middle;
+}
+
 

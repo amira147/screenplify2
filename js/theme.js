@@ -650,6 +650,13 @@ function shortcodeElements() {
 
 };
 
+// //Instafeed Function
+// var feed = new Instafeed({
+//     get: 'tagged',
+//     tagName: 'ounchkiosk',
+//     clientId: '7e1d3f4139d04d3aa36b40c0e43318cd'
+// });
+// feed.run();
 
 // Accordion Function Elements
 accordion();
