@@ -39,73 +39,7 @@
     <!-- Site Wraper -->
     <div class="wrapper">
 
-        <!-- HEADER -->
-        <header class="header">
-            <div class="container">
-
-                <!-- logo -->
-                <div class="logo">
-                    <a href="#">
-                        <div class="svg-logo">
-                          <svg version="1.1" id="svg-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                          width="100%" height="100%" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
-
-                            <g>
-                              <polygon fill="#DE1A27" points="72.068,28.449 191.928,97.65 72.068,166.852  "/>
-                              <polygon fill="#ED6E27" points="191.928,104.524 72.068,173.725 191.928,242.926  "/>
-                              <polygon fill="#E42B93" points="199.069,104.523 318.929,173.725 199.069,242.926   "/>
-                              <polygon fill="#AD2088" points="318.929,180.599 199.069,249.799 318.929,319   "/>
-                              <polygon fill="#F282B4" points="326.07,180.598 445.93,249.799 326.07,319  "/>
-                              <polygon fill="#1D95CF" points="199.069,395.477 318.929,326.275 199.069,257.074   "/>
-                              <polygon fill="#95C441" points="191.928,395.476 72.068,326.275 191.928,257.074   "/>
-                              <polygon fill="#66CCE2" points="72.068,471.551 191.928,402.35 72.068,333.148  "/>
-                              <polygon fill="#FFD726" points="54.07,180.598 173.93,249.799 54.07,319  "/>
-                            </g>
-
-                          </svg>
-                        </div>
-                        <span>Screenplify</span>
-                    </a>
-                </div>
-                <!--End logo-->
-
-                <!-- Navigation Menu -->
-                <nav class='navigation'>
-                    <ul>
-                        <li>
-                            <a href="index">Home</a>
-                        </li>
-
-                        <li class="nav-has-sub">
-                            <a href="features">Features</a>
-                        </li>
-                        
-                        <li>
-                            <a href="spark">Spark</a>
-                        </li>
-                        
-                        <li>
-                            <a href="portfolio">Portfolio</a>
-                        </li>
-                        
-                        <li>
-                            <a href="blog">Blog</a>
-                        </li>
-                        
-                        <li>
-                            <a>FAQ</a>
-                        </li>
-
-                        <li>
-                            <a href="contact">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-                <!--End Navigation Menu -->
-
-            </div>
-        </header>
-        <!-- END HEADER -->
+        <?php include('header.php'); ?>
 
         <!-- CONTENT -------------------------------------------->
 
@@ -282,7 +216,7 @@
                                     <!-- <li>Waiting point video screens, eg. Elevators, waiting rooms, queueing area</li> -->
                                 </ul>
                                 <div class="spacer-15"></div>
-                                <!-- <a target="_blank" href="http://google.com/" class="btn btn-md btn-black">Visit Site <i class="fa fa-external-link right"></i></a> -->
+                                <!-- <a target="_blank" href="http://google.com/" class="btn btn-md btn-black-line">Visit Site <i class="fa fa-external-link right"></i></a> -->
                             </div>
                         </div>
                     </div>
@@ -305,11 +239,14 @@
         <section id="spark" class="ptb ptb-sm-80 text-center">
             <div class="container">
                 <img src="img/spark-logo.jpg" style="width:300px;" />
-                <p class="lead">
+                <div class="lead col-md-10 pull-left" style="text-align:left;">
                 Smart and professional digital signage to liven up the vibe and enhance your audiences' experience at conferences, exhibitions, and trade shows.
-                </p>
+                </div>
+                <div class="col-md-2 pull-right">
+                    <a class="btn btn-md btn-black-line" href="spark">Read More</a>
+                </div>
             </div>
-            
+            <div class="spacer-45"></div>
             <div class="container">
                 <div class="row col-md-offset-1">
                     <div class="col-md-6">
@@ -353,7 +290,7 @@
         <!-- End Statement2 Section -->
 
         <!-- Statement Section -->
-        <section id="statement" class="light-bg ptb ptb-sm-80">
+        <!-- <section id="statement" class="light-bg ptb ptb-sm-80">
             <div class="container text-center">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
@@ -362,31 +299,111 @@
                         </a>
                         <h4>Want to see Screenplify in action?</h4>
                         <div class="spacer-15"></div>
-                        <a class="cbox-iframe btn btn-md btn-black" href="http://www.youtube.com/embed/3-Nsn4t2YHQ?rel=0&amp;wmode=transparent">Watch Video</a>
+                        <a class="cbox-iframe btn btn-md btn-black-line" href="http://www.youtube.com/embed/3-Nsn4t2YHQ?rel=0&amp;wmode=transparent">Watch Video</a>
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- End Statement Section -->
 
-        <!-- Quotation Section -->
-        <section id="quotation" class="dark-bg ptb-60">
+        <!-- Contact Form -->
+            <section id="contact-us" class="light-bg ptb ptb-sm-80" data-background-img="img/full/20.jpg" data-stellar-background-ratio="0.5">
+                <div class="container">
+                    <div class="row text-center">
+                        <h6 class="page-title-alt color mb-15">Have any questions? </h6>
+                        <h1 class="page-title">Get In <span class="text-light">Touch</span></h1>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-8 col-md-offset-2">
+                            <div class="row">
+                                <form id="contact" class="contact-form" role="form">
+                                    <div class="col-md-12 text-center">
+                                        <h5 class="successContent">
+                                            <i class="fa fa-check left" style="color: #5cb45d;"></i>Your message has been sent successfully.
+                                        </h5>
+                                        <h5 class="errorContent" style="color: #e1534f;">
+                                            <i class="fa fa-exclamation-circle left"></i>There was a problem validating the form please check!
+                                        </h5>
+                                    </div>
+                                    <div class="col-md-6 contact-form-element">
+                                        <div class="form-field-wrapper">
+                                            <input class="input-md form-full" id="form-name" type="text" name="form-name" placeholder="Your Name" required />
+                                        </div>
+                                        <div class="form-field-wrapper">
+                                            <input class="input-md form-full" id="form-email" type="email" name="form-email" placeholder="Email" required />
+                                        </div>
+                                        <div class="form-field-wrapper">
+                                            <input class="input-md form-full" id="form-tel" type="tel" name="form-tel" placeholder="Contact No." required />
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 mb-0 contact-form-element">
+                                        <div class="form-field-wrapper">
+                                            <textarea class="input-md form-full" id="form-message" rows="7" name="form-message" placeholder="Your Message" required></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6 contact-form-element">
+                                        <img src="captcha_code_file.php?rand=<?php echo rand(); ?>" id="captchaimg" style="margin-bottom: 5px;">
+                                        <br/>
+                                        <div class="form-field-wrapper">
+                                            <input class="input-md form-full" id="6_letters_code" name="6_letters_code" type="text" placeholder="Enter Captcha Code">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 text-center contact-form-element">
+                                        <button class="btn-contact-submit btn btn-md btn-black-line" type="submit" id="form-submit" name="submit">Send Message</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End Contact Form -->
+
+        <!-- Map section -->
+        <section class="map">
+            <div id="map"></div>
+        </section>
+        <!-- End Map section -->
+
+        <!--Contact Info Section-->
+        <section id="contct-info" class="ptb-60">
             <div class="container text-center">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h4>Look no further. <br/>We've got your Digital Signage needs covered.</h4>
-                        <div class="spacer-15"></div>
-                        <a class="btn btn-md btn-white" href="contact">Get Quotation</a>
+                    <div class="col-md-4 mb-sm-30 wow fadeIn" data-wow-delay="0.2s" data-wow-duration="2s">
+                        <div class="page-icon-top"><i class="ion ion-ios-location-outline"></i></i></div>
+                        <h5 class="features-title">Address</h5>
+                        <p>
+                            Office 13 Resource Center, <br />
+                            Technology Park Malaysia, <br />
+                            Lebuhraya Puchong - Sg. Besi, <br />
+                            57000 Bukit Jalil, Kuala Lumpur, <br />
+                            Malaysia
+                        </p>
+                    </div>
+                    <div class="col-md-4 mb-sm-30 wow fadeIn" data-wow-delay="0.4s" data-wow-duration="2s">
+                        <div class="page-icon-top"><i class="ion ion-ios-clock-outline"></i></div>
+                        <h5 class="features-title">office Hours</h5>
+                        <p>
+                            Mon - Fri : 8.30am to 6pm
+                        </p>
+                    </div>
+                    <div class="col-md-4 mb-sm-30 wow fadeIn" data-wow-delay="0.6s" data-wow-duration="2s">
+                        <div class="page-icon-top"><i class="ion ion-ios-chatbubble-outline"></i></div>
+                        <h5 class="features-title">Contact</h5>
+                        <p class="contact-link">
+                            <a href="mailto:info@ounch.com"><span class="text-bold">Email :</span> info@ounch.com</a><br />
+                            <a href="tel:+60122989995"><span class="text-bold">Call :</span> +60122989995</a>
+                        </p>
                     </div>
                 </div>
             </div>
         </section>
-        <!-- Quotation Section -->
+        <!-- End Contact Info Section-->
 
         <!-- END CONTENT ---------------------------------------------------------------------------->
 
         
-
+        <?php /*
         <!--Footer Section-->
         <footer id="footer" class="footer ptb-80 gray-bg">
             <div class="container text-center">
@@ -414,6 +431,9 @@
             </div>
         </footer>
         <!-- End Footer Section-->
+        */ ?>
+
+        <?php include('footer.php'); ?>
 
         <!-- Scroll Top -->
         <a class="scroll-top">
@@ -448,6 +468,8 @@
     <script src="js/plugin/jquery.fs.tipper.min.js" type="text/javascript"></script>
     <script src="js/plugin/mediaelement-and-player.min.js"></script>
     <script src="js/theme.js" type="text/javascript"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="js/map.js"></script>
     <script src="js/navigation.js" type="text/javascript"></script>
 
 

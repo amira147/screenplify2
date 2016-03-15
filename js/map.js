@@ -214,7 +214,7 @@ function init() {
 
     // Let's also add a marker while we're at it
     var marker = new google.maps.Marker({
-        position: new google.maps.LatLng(21.170240, 72.831061),
+        position: new google.maps.LatLng(3.047083, 101.688563),
         map: map,
         title: 'Nileforest',
         icon: 'img/map-marker.png'

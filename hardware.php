@@ -47,10 +47,9 @@
         <section class="inner-intro bg-img8 light-color overlay-dark parallax parallax-background2">
             <div class="container">
                 <div class="row title">
-                    <div id="spark-logo"></div>
-                    <!-- <h2 class="h2">Spark</h2> -->
+                    <h2 class="h2">Hardware</h2>
                     <div class="page-breadcrumb">
-                        <a href="index">Home</a>/<span>Spark</span>
+                        <a href="index">Home</a>/<span>Hardware</span>
                     </div>
                 </div>
             </div>
@@ -59,74 +58,104 @@
         <!-- End Intro Section -->
 
 
-        <!-- Spark Section -->
-        <section class="ptb ptb-sm-80">
+        <!-- Hardware Section -->
+        <section id="hardware" class="ptb ptb-sm-80">
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center">
-                        <h3>Smart Digital Signage</h3>
-                        <p class="lead">Every event needs great digital signage to liven up the vibe and enhance the audience’s experience.
-                             Spark delivers vibrant screens specialised for Exhibitions and Trade Shows.
-                         </p>
+                        <h3>Out-of-the-box solutions</h3>
+                        <p class="lead">Screenplify works seamlessly on any screen regardless of their aspect ratio, orientation, screen resolution. With Screenplify, you have the option of using your own screen of choice (installation is a breeze!) or to purchase the complete hardware/software bundle with the choice of the hardware we provide below.</p>
                     </div>
+                </div>
+                <div class="spacer-75"></div>
+                <div class="row" style="border:1px solid #eee;padding:20px">
+                	<div class="col-md-5 col-md-offset-1 col-sm-12">
+                		<h4>42" Touchscreen Kiosk</h4>
+                		<br/>
+                		<img src="img/hardware_kiosk.png" />
+                	</div>
+                	<div class="col-md-5 col-sm-12 content-block">
+                		<div class="content-text">
+	                		<ul>
+	                			<li>Display: 42″ Vertical Screen</li>
+	                			<li>Video Orientation: Portrait</li>
+	                			<li>Supported Video File Types: mp4</li>
+	                			<li>Standard Color: Black</li>
+	                		</ul>
+	                	</div>
+                	</div>
+                </div>
+                <div class="spacer-30"></div>
+                <div class="row" style="border:1px solid #eee;padding:20px">
+                	<div class="col-md-5 col-md-offset-1 col-sm-12">
+                		<h4>All-in-one Touchscreen</h4>
+                		<br/>
+                		<img src="img/hardware_screen.png" />
+                	</div>
+                	<div class="col-md-5 col-sm-12 content-block">
+                		<div class="content-text">
+	                		<ul>
+	                			<li>Display: 42″, 47″, 55″ Horizontal Screen</li>
+	                			<li>Video Orientation: Portait / Landscape</li>
+	                			<li>Supported Video File Types: mp4</li>
+	                			<li>Standard Color: Black</li>
+	                		</ul>
+	                	</div>
+                	</div>
+                </div>
+                <div class="spacer-30"></div>
+                <div class="row" style="border:1px solid #eee;padding:20px">
+                	<div class="col-md-5 col-md-offset-1 col-sm-12">
+                		<h4>Intel<sup>&reg;</sup> NUC</h4>
+                		<br/>
+                		<img src="img/hardware_nucs.jpg" />
+                	</div>
+                	<div class="col-md-5 col-sm-12 content-block">
+                		<div class="content-text">
+	                		<ul>
+	                			<li>Processor: 5th generation Intel<sup>&reg;</sup> Core<sup>&trade;</sup> i5</li>
+	                			<li>Video Orientation: Portrait / Landscape</li>
+	                			<li>Memory: Two SO-DIMM slots supporting up to 16 GB of 1600/1333 MHz 1.35V DDR-3 memory</li>
+	                			<li>Display: One Mini DisplayPort</li>
+	                			<li>Peripheral Interfaces:
+	                				<ul>
+					        			<li>Four USB 3.0 connectors</li>
+					        			<li>Mini HDMI port</li>
+					        			<li>Consumer infrared sensor on the front panel</li>
+	                				</ul>
+	                			</li>
+	                		</ul>
+	                	</div>
+                	</div>
+                </div>
+                <div class="spacer-30"></div>
+                <div class="row" style="border:1px solid #eee;padding:20px">
+                	<div class="col-md-5 col-md-offset-1 col-sm-12">
+                		<h4>Intel<sup>&reg;</sup> Compute Stick</h4>
+                		<br/>
+                		<img src="img/hardware_computestick.jpg" />
+                	</div>
+                	<div class="col-md-5 col-sm-12 content-block">
+                		<div class="content-text">
+	                		<ul>
+	                			<li>Quad-core Intel<sup>&reg;</sup> Atom<sup>&trade;</sup> processor</li>
+	                			<li>Video Orientation: Portrait / Landscape</li>
+	                			<li>Memory: 2GB memory</li>
+	                			<li>Peripheral Interfaces:
+	                				<ul>
+					        			<li>One USB 2.0 ports</li>
+					        			<li>HDMI port</li>
+					        			<li>Micro SD card slot</li>
+	                				</ul>
+	                			</li>
+	                		</ul>
+	                	</div>
+                	</div>
                 </div>
             </div>
         </section>
-        <!-- End Spark Section -->
+        <!-- Hardware Section -->
 
-
-        <!--Spark Information Section-->
-        <section id="spark-info" class="section-padding"  style="min-height:430px;padding-top: 0px;padding-bottom: 0px;">
-            
-            <div class="container item">
-                <div class="row">
-                    <div class="col-md-6 mb-sm-30 content-block wow fadeInLeft" data-wow-duration="2s">
-                        <img src="img/website_images_1.png" alt="spark advert screen" class="center-block" style="height: 650px;width: auto;"/>
-                    </div>
-                    <div class="col-md-6 content-block wow fadeInRight" data-wow-duration="2s">
-                        <div class="content-text">
-                            <h4 class="content-title">Happy audience, successful event</h4>
-                            <p>Spark screens was designed to display vibrant, smart, and detail-oriented agenda boards and conference programmes for events.</p>
-                            <p>Visitors love it because at a moment's glance, it makes it easy to decide what to do and where to go next.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="spacer-30"></div>
-            <div class="container item">
-                <div class="row">
-                    <div class="col-md-5 col-md-offset-1 mb-sm-30 content-block wow fadeInLeft" data-wow-duration="2s">
-                        <div class="content-text">
-                            <h4 class="content-title">Eye-catching content</h4>
-                            <p>Timed visitor announcements throughout the day are the best way to communicate to visitors.</p>
-                            <p>Exhibitor discovery adverts provide fantastic exposure for exhibitors. They can also generate significant sponsorship revenue for the organiser.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 content-block wow fadeInRight" data-wow-duration="2s">
-                        <img src="img/website_images_2.png" alt="spark advert screen" class="center-block" style="height: 650px;width: auto;"/>
-                    </div>
-
-                </div>
-            </div>
-            <div class="container item">
-                <div class="row">
-                    <div class="col-md-6 mb-sm-30 content-block wow fadeInLeft" data-wow-duration="2s">
-                        <img src="img/website_images_3.png" alt="spark advert screen" class="center-block" style="height: 650px;width: auto;"/>
-                    </div>
-                    <div class="col-md-6 content-block wow fadeInRight" data-wow-duration="2s">
-                        <div class="content-text">
-                            <h4 class="content-title">For all kinds of Digital Screens</h4>
-                            <p>Display your event programme on any screen size of your choice, with either landscape or portrait orientation.</p>
-                            <p> When we say all, we mean it!
-                            <br/>Give your audience the convenience of viewing the smart, real-time, event programme from their mobile phones.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Spark Information Section-->
-        
         <?php include('action_quotation.php'); ?>
 
         <!-- End CONTENT ------------------------------------------------------------------------------>

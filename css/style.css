@@ -3963,5 +3963,34 @@ ul.content-list li{
     vertical-align: middle;
 }
 
-/* Portfolio page */
+/* faq page */
+#faq .content-list li{
+    color: #888;
+    letter-spacing: 1px;
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+#faq ul.content-list li::before {
+    content: '★';
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 10px;
+    height: 10px;
+    display: table-cell;
+    padding-right: 10px;
+}
+
+/* hardware page */
+#hardware .row .content-block{
+    height: 350px;
+    display: table;
+}
+          
+#hardware .row .content-text {
+    display:table-cell;
+    vertical-align: middle;
+}
 

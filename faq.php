@@ -47,10 +47,9 @@
         <section class="inner-intro bg-img8 light-color overlay-dark parallax parallax-background2">
             <div class="container">
                 <div class="row title">
-                    <div id="spark-logo"></div>
-                    <!-- <h2 class="h2">Spark</h2> -->
+                    <h2 class="h2">Frequently Asked Questions</h2>
                     <div class="page-breadcrumb">
-                        <a href="index">Home</a>/<span>Spark</span>
+                        <a href="index">Home</a>/<span>FAQ</span>
                     </div>
                 </div>
             </div>
@@ -59,75 +58,47 @@
         <!-- End Intro Section -->
 
 
-        <!-- Spark Section -->
-        <section class="ptb ptb-sm-80">
+        <!-- Contact Section -->
+        <section id="faq" class="ptb ptb-sm-80">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 col-md-offset-2 text-center">
-                        <h3>Smart Digital Signage</h3>
-                        <p class="lead">Every event needs great digital signage to liven up the vibe and enhance the audience’s experience.
-                             Spark delivers vibrant screens specialised for Exhibitions and Trade Shows.
-                         </p>
-                    </div>
+                	<h2>What is digital signage?</h2>
+                	<p>
+                		Digital signage is the modern-day replacement to traditional, static signage and is more cost-effective and flexible than other forms of visual communications. Digital signage attracts viewers’ attention, creates ambience, informs, educates, and influences purchase decision in point of sale, point of wait, and point of transit environments.
+                	</p>
+                </div>
+                <div class="spacer-75"></div>
+                <hr />
+                <div class="row">
+                	<h2>Why choose screenplify?</h2>
+                	<p>
+                		Here's how Screenplify sets itself apart from other solutions and makes it the easiest choice for your Digital Signage needs:
+                	</p>
+                    <ul class="content-list" style="list-style:none;padding:0;margin: 0 auto;float:none;">
+                        <li>Highly customizable: Interactive/non-interactive digital screen capabilities with landscape or portrait orientation.</li>
+                        <li>Advanced features: Content display scheduling and multiple screen synchronization.</li>
+                        <li>Simple and intuitive Content Editor Tool: drag-and-drop user interface.</li>
+                        <li>Fast and easy digital screen deployment, plug-and-install.</li>
+                        <li>Hassle-free content update, ability to update screen content remotely or on-site.</li>
+                        <li>Monitor deployed screens' statuses for easy troubleshooting and maintenance.</li>
+                        <li>One year warranty for hardware, and one year warranty for software (depending on package purchased) renewable on yearly basis. </li>
+                    </ul>
+                </div>
+                <div class="spacer-75"></div>
+                <hr />
+                <div class="row">
+                	<h2>How much would it cost me?</h2>
+                </div>
+                <div class="spacer-75"></div>
+                <hr />
+                <div class="row">
+                	<h2>What kind of screens can be used for digital signage?</h2>
                 </div>
             </div>
         </section>
-        <!-- End Spark Section -->
-
-
-        <!--Spark Information Section-->
-        <section id="spark-info" class="section-padding"  style="min-height:430px;padding-top: 0px;padding-bottom: 0px;">
-            
-            <div class="container item">
-                <div class="row">
-                    <div class="col-md-6 mb-sm-30 content-block wow fadeInLeft" data-wow-duration="2s">
-                        <img src="img/website_images_1.png" alt="spark advert screen" class="center-block" style="height: 650px;width: auto;"/>
-                    </div>
-                    <div class="col-md-6 content-block wow fadeInRight" data-wow-duration="2s">
-                        <div class="content-text">
-                            <h4 class="content-title">Happy audience, successful event</h4>
-                            <p>Spark screens was designed to display vibrant, smart, and detail-oriented agenda boards and conference programmes for events.</p>
-                            <p>Visitors love it because at a moment's glance, it makes it easy to decide what to do and where to go next.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="spacer-30"></div>
-            <div class="container item">
-                <div class="row">
-                    <div class="col-md-5 col-md-offset-1 mb-sm-30 content-block wow fadeInLeft" data-wow-duration="2s">
-                        <div class="content-text">
-                            <h4 class="content-title">Eye-catching content</h4>
-                            <p>Timed visitor announcements throughout the day are the best way to communicate to visitors.</p>
-                            <p>Exhibitor discovery adverts provide fantastic exposure for exhibitors. They can also generate significant sponsorship revenue for the organiser.</p>
-                        </div>
-                    </div>
-                    <div class="col-md-6 content-block wow fadeInRight" data-wow-duration="2s">
-                        <img src="img/website_images_2.png" alt="spark advert screen" class="center-block" style="height: 650px;width: auto;"/>
-                    </div>
-
-                </div>
-            </div>
-            <div class="container item">
-                <div class="row">
-                    <div class="col-md-6 mb-sm-30 content-block wow fadeInLeft" data-wow-duration="2s">
-                        <img src="img/website_images_3.png" alt="spark advert screen" class="center-block" style="height: 650px;width: auto;"/>
-                    </div>
-                    <div class="col-md-6 content-block wow fadeInRight" data-wow-duration="2s">
-                        <div class="content-text">
-                            <h4 class="content-title">For all kinds of Digital Screens</h4>
-                            <p>Display your event programme on any screen size of your choice, with either landscape or portrait orientation.</p>
-                            <p> When we say all, we mean it!
-                            <br/>Give your audience the convenience of viewing the smart, real-time, event programme from their mobile phones.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- End Spark Information Section-->
-        
-        <?php include('action_quotation.php'); ?>
+        <!-- Contact Section -->
+		
+		<?php 	include('action_quotation.php'); ?>
 
         <!-- End CONTENT ------------------------------------------------------------------------------>
 
