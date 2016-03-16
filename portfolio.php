@@ -44,7 +44,7 @@
         <!-- CONTENT --------------------------------------------------------------------------------->
 
         <!-- Intro Section -->
-        <section class="inner-intro bg-img8 light-color overlay-dark parallax parallax-background2">
+        <section class="inner-intro bg-img17 light-color overlay-dark parallax parallax-background2">
             <div class="container">
                 <div class="row title">
                     <h2 class="h2">Portfolio</h2>
@@ -63,7 +63,6 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <h3>Happy Clients</h3>
-                        <p class="lead">Lorem ipsum dolor set amet</p>
                     </div>
                 </div>
                 <div class="spacer-75"></div>
@@ -127,7 +126,7 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <h3>Partners</h3>
-                        <p class="lead">OunchKiosk partners with various business and technology companies to deliver top-of-the-line digital signage software solutions.</p>
+                        <p class="lead">Screenplify partners with various business and technology companies to deliver top-of-the-line digital signage software solutions.</p>
                     </div>
                 </div>
                 <div class="spacer-75"></div>
@@ -154,6 +153,9 @@
                     <div class="partner-logo col-md-4 ">
                         <img src="img/partners/omniphics.png" class="center-block" />
                     </div>
+                    <div class="partner-logo col-md-4 ">
+                        <img src="img/partners/tpm.png" class="center-block" style="width: 270px;" />
+                    </div>
                 </div>
             </div>
         </section>
@@ -165,9 +167,10 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <h3>Image Gallery</h3>
+                        <p class="lead">We are always keen on taking on the challenge of bringing our client's ideas to life. Here's a view of some of our past digital signage projects.</p>
                     </div>
-                    <div class="spacer-30"></div>
-                    <div class="container">
+                    <div class="spacer-60"></div>
+                    <div class="container pt-80">
                         <div class="row container-grid nf-col-3">
 
                             <?php
@@ -175,8 +178,9 @@
                                     "mahsing" => "Screens for Mah Sing property offices and property expos",
                                     "mydin" => "In-store information kiosk and store guide for Mydin Hypermarkets",
                                     "spark" => "Liven up your conferences with spark screens!",
-                                    "lakecity" => "Landscape kiosk fo property showcase for Lakecity",
+                                    "lakecity" => "Landscape kiosk for property showcase for Lakecity",
                                     "klims" => "Sticker-wrapped information kiosks at Kuala Lumpur International Motor Show",
+                                    "ioiproperty" => "IOI Property Showcase landscape kiosk with light-up model",
                                     "homedec" => "Information kiosk at Homedec exhibitions",
                                     "gsy" => "Information kiosk at Global Startup Youth Conference"
                                 );

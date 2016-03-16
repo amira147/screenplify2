@@ -95,7 +95,7 @@
                                     <h2 class="h2">Suitable for <br> All Digital Displays</h2>
                                     <p class="lead">Any size, any resolution, any orientation</p>
                                     <br />
-                                    <div><a href="#about" class="btn btn-md btn-white xs-hidden">Learn More</a></div>
+                                    <div><a href="hardware" class="btn btn-md btn-white xs-hidden">Learn More</a></div>
                                 </div>
                             </div>
                         </div>
@@ -128,17 +128,17 @@
                             <p>Design vibrant and dynamic, interactive/non-interactive displays for your digital signage screens with our intuitive content manager.</p>
                         </div>
                         <div class="col-md-3 col-sm-6 mb-45">
-                            <div class="page-icon-top"><i class="ion ion-ios-gear-outline"></i></div>
+                            <div class="page-icon-top"><i class="ion ion-ios-cloud-outline"></i></div>
                             <h5 class="features-title">Content Manager</h5>
                             <p>Cloud-based content manager allows for instant content updates, anytime, anywhere.</p>
                         </div>
                         <div class="col-md-3 col-sm-6 mb-45">
-                            <div class="page-icon-top"><i class="ion ion-social-apple-outline"></i></div>
+                            <div class="page-icon-top"><i class="ion ion-ios-monitor-outline"></i></div>
                             <h5 class="features-title">Media Player</h5>
                             <p>A reliable playback system that will play 24 hours a day and 365 days a year.</p>
                         </div>
                         <div class="col-md-3 col-sm-6 mb-45">
-                            <div class="page-icon-top"><i class="ion ion-ios-compose-outline"></i></div>
+                            <div class="page-icon-top"><i class="ion ion-stats-bars"></i></div>
                             <h5 class="features-title">Analytics</h5>
                             <p>Monitor and maintain your network of digital signage displays through visual reports on user behavior and system performance.</p>
                         </div>
@@ -239,12 +239,11 @@
         <section id="spark" class="ptb ptb-sm-80 text-center">
             <div class="container">
                 <img src="img/spark-logo.jpg" style="width:300px;" />
-                <div class="lead col-md-10 pull-left" style="text-align:left;">
+                <p class="lead">
                 Smart and professional digital signage to liven up the vibe and enhance your audiences' experience at conferences, exhibitions, and trade shows.
-                </div>
-                <div class="col-md-2 pull-right">
-                    <a class="btn btn-md btn-black-line" href="spark">Read More</a>
-                </div>
+                </p>
+                <br/>
+                <a class="btn btn-md btn-black-line" href="spark">Read More</a>
             </div>
             <div class="spacer-45"></div>
             <div class="container">
@@ -342,10 +341,9 @@
                                         </div>
                                     </div>
                                     <div class="col-md-6 contact-form-element">
-                                        <img src="captcha_code_file.php?rand=<?php echo rand(); ?>" id="captchaimg" style="margin-bottom: 5px;">
-                                        <br/>
                                         <div class="form-field-wrapper">
-                                            <input class="input-md form-full" id="6_letters_code" name="6_letters_code" type="text" placeholder="Enter Captcha Code">
+                                            <img src="captcha_code_file.php?rand=<?php echo rand(); ?>" id="captchaimg" class="col-md-6 col-sm-12">
+                                            <input class="input-md col-md-6 col-sm-12" id="6_letters_code" name="6_letters_code" type="text" placeholder="Captcha Code">
                                         </div>
                                     </div>
                                     <div class="col-md-12 text-center contact-form-element">

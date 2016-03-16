@@ -44,7 +44,7 @@
         <!-- CONTENT --------------------------------------------------------------------------------->
 
         <!-- Intro Section -->
-        <section class="inner-intro bg-img8 light-color overlay-dark parallax parallax-background2">
+        <section class="inner-intro bg-img13 light-color overlay-dark parallax parallax-background2">
             <div class="container">
                 <div class="row title">
                     <h2 class="h2">Hardware</h2>
@@ -64,44 +64,32 @@
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2 text-center">
                         <h3>Out-of-the-box solutions</h3>
-                        <p class="lead">Screenplify works seamlessly on any screen regardless of their aspect ratio, orientation, screen resolution. With Screenplify, you have the option of using your own screen of choice (installation is a breeze!) or to purchase the complete hardware/software bundle with the choice of the hardware we provide below.</p>
+                        <p class="lead">Screenplify works seamlessly on any screen regardless of their aspect ratio, orientation, or screen resolution. With Screenplify, you have the option of using your own screen of choice (installation is a breeze!) or to purchase the complete hardware/software bundle with the choice of the hardware we provide below.</p>
                     </div>
                 </div>
                 <div class="spacer-75"></div>
                 <div class="row" style="border:1px solid #eee;padding:20px">
-                	<div class="col-md-5 col-md-offset-1 col-sm-12">
-                		<h4>42" Touchscreen Kiosk</h4>
-                		<br/>
-                		<img src="img/hardware_kiosk.png" />
-                	</div>
-                	<div class="col-md-5 col-sm-12 content-block">
-                		<div class="content-text">
-	                		<ul>
-	                			<li>Display: 42″ Vertical Screen</li>
-	                			<li>Video Orientation: Portrait</li>
-	                			<li>Supported Video File Types: mp4</li>
-	                			<li>Standard Color: Black</li>
-	                		</ul>
-	                	</div>
-                	</div>
-                </div>
-                <div class="spacer-30"></div>
-                <div class="row" style="border:1px solid #eee;padding:20px">
-                	<div class="col-md-5 col-md-offset-1 col-sm-12">
-                		<h4>All-in-one Touchscreen</h4>
-                		<br/>
-                		<img src="img/hardware_screen.png" />
-                	</div>
-                	<div class="col-md-5 col-sm-12 content-block">
-                		<div class="content-text">
-	                		<ul>
-	                			<li>Display: 42″, 47″, 55″ Horizontal Screen</li>
-	                			<li>Video Orientation: Portait / Landscape</li>
-	                			<li>Supported Video File Types: mp4</li>
-	                			<li>Standard Color: Black</li>
-	                		</ul>
-	                	</div>
-                	</div>
+                    <div class="col-md-5 col-md-offset-1 col-sm-12">
+                        <h4>Intel<sup>&reg;</sup> Compute Stick</h4>
+                        <br/>
+                        <img src="img/hardware_computestick.jpg" />
+                    </div>
+                    <div class="col-md-5 col-sm-12 content-block">
+                        <div class="content-text">
+                            <ul>
+                                <li>Quad-core Intel<sup>&reg;</sup> Atom<sup>&trade;</sup> processor</li>
+                                <li>Video Orientation: Portrait / Landscape</li>
+                                <li>Memory: 2GB memory</li>
+                                <li>Peripheral Interfaces:
+                                    <ul>
+                                        <li>One USB 2.0 ports</li>
+                                        <li>HDMI port</li>
+                                        <li>Micro SD card slot</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
                 <div class="spacer-30"></div>
                 <div class="row" style="border:1px solid #eee;padding:20px">
@@ -130,27 +118,39 @@
                 </div>
                 <div class="spacer-30"></div>
                 <div class="row" style="border:1px solid #eee;padding:20px">
-                	<div class="col-md-5 col-md-offset-1 col-sm-12">
-                		<h4>Intel<sup>&reg;</sup> Compute Stick</h4>
-                		<br/>
-                		<img src="img/hardware_computestick.jpg" />
-                	</div>
-                	<div class="col-md-5 col-sm-12 content-block">
-                		<div class="content-text">
-	                		<ul>
-	                			<li>Quad-core Intel<sup>&reg;</sup> Atom<sup>&trade;</sup> processor</li>
-	                			<li>Video Orientation: Portrait / Landscape</li>
-	                			<li>Memory: 2GB memory</li>
-	                			<li>Peripheral Interfaces:
-	                				<ul>
-					        			<li>One USB 2.0 ports</li>
-					        			<li>HDMI port</li>
-					        			<li>Micro SD card slot</li>
-	                				</ul>
-	                			</li>
-	                		</ul>
-	                	</div>
-                	</div>
+                    <div class="col-md-5 col-md-offset-1 col-sm-12">
+                        <h4>42" Touchscreen Kiosk</h4>
+                        <br/>
+                        <img src="img/hardware_kiosk.png" />
+                    </div>
+                    <div class="col-md-5 col-sm-12 content-block">
+                        <div class="content-text">
+                            <ul>
+                                <li>Display: 42″ Vertical Screen</li>
+                                <li>Video Orientation: Portrait</li>
+                                <li>Supported Video File Types: mp4</li>
+                                <li>Standard Color: Black</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="spacer-30"></div>
+                <div class="row" style="border:1px solid #eee;padding:20px">
+                    <div class="col-md-5 col-md-offset-1 col-sm-12">
+                        <h4>All-in-one Touchscreen</h4>
+                        <br/>
+                        <img src="img/hardware_screen.png" />
+                    </div>
+                    <div class="col-md-5 col-sm-12 content-block">
+                        <div class="content-text">
+                            <ul>
+                                <li>Display: 42″, 47″, 55″ Horizontal Screen</li>
+                                <li>Video Orientation: Portait / Landscape</li>
+                                <li>Supported Video File Types: mp4</li>
+                                <li>Standard Color: Black</li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>

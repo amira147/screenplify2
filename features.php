@@ -44,7 +44,7 @@
         <!-- CONTENT --------------------------------------------------------------------------------->
 
         <!-- Intro Section -->
-        <section class="inner-intro bg-img8 light-color overlay-dark parallax parallax-background2">
+        <section class="inner-intro bg-img18 light-color overlay-dark parallax parallax-background2">
             <div class="container">
                 <div class="row title">
                     <h2 class="h2">Features</h2>

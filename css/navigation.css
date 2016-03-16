@@ -78,7 +78,8 @@
     }
 
     .navigation > ul > li > a {
-        padding: 41px 16px;
+        /*padding: 41px 16px;*/
+        padding: 38px 16px;
         font-size: 12px;
         font-family: 'Raleway', sans-serif;
         font-weight:600;
@@ -94,7 +95,8 @@
     }
 
 .header.sticky .navigation ul li a {
-    padding: 26px 16px;
+    padding: 29px 16px;
+    /*padding: 26px 16px;*/
 }
 
 .header.sticky .navigation ul ul li a, .header .navigation ul ul li a, .navigation ul ul li a {

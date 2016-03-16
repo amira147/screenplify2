@@ -121,7 +121,7 @@
                             <!-- END MAIL SENDING UNSUCCESSFULL -->
 
                             <div class="form-field-wrapper">
-                                <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="Your Name" required>
+                                <input class="input-sm form-full" id="form-name" type="text" name="form-name" placeholder="Your Name" required autofocus>
                             </div>
 
                             <div class="form-field-wrapper">

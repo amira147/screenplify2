@@ -587,7 +587,7 @@ input, textarea, select {
     }
 
 textarea {
-    height: 120px;
+    height: 112px;
 }
 
 label {
@@ -3891,6 +3891,15 @@ ul.project-detail-block, .project-detail-block ul {
 /* Custom Styles */
 /* ----------------------------------*/
 
+/* */
+.logo_white{
+    width: 13px;
+    height: 13px;
+    background: url('../img/logo_white.svg') no-repeat;
+    background-size: contain;
+    display: inline-block;
+    margin-bottom: -2px;
+}
 
 /* Nav menu */
 .header.sticky,

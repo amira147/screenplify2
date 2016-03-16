@@ -50,7 +50,7 @@ include('utility.php')
         <!-- CONTENT --------------------------------------------------------------------------------->
 
         <!-- Intro Section -->
-        <section class="inner-intro bg-img26 overlay-dark light-color parallax parallax-background2">
+        <section class="inner-intro bg-img11 overlay-dark light-color parallax parallax-background2">
             <div class="container">
                 <div class="row title">
                     <h2 class="h2">Blog</h2>
@@ -102,7 +102,7 @@ include('utility.php')
                                     </div>
                                     <div class="post-meta"><span>by <a><?php echo $row['author']; ?></a>,</span> <span><?php echo date("F j, Y", $row['created_datetime']); ?></span></div>
                                     <div class="post-header">
-                                        <h4><a href="post/<?php echo $row['url_title']; ?>"><?php echo $row['title']; ?></a></h4>
+                                        <h4><a href="blog/<?php echo $row['url_title']; ?>"><?php echo $row['title']; ?></a></h4>
                                     </div>
                                     <div class="post-entry">
                                         <?php echo truncate($row['text'], 300); ?>

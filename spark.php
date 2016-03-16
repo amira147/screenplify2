@@ -44,7 +44,7 @@
         <!-- CONTENT --------------------------------------------------------------------------------->
 
         <!-- Intro Section -->
-        <section class="inner-intro bg-img8 light-color overlay-dark parallax parallax-background2">
+        <section class="inner-intro bg-img12 light-color overlay-dark parallax parallax-background2">
             <div class="container">
                 <div class="row title">
                     <div id="spark-logo"></div>

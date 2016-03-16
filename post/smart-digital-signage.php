@@ -39,80 +39,7 @@
     <!-- Site Wraper -->
     <div class="wrapper">
 
-        <!-- HEADER -->
-        <header class="header">
-            <div class="container">
-
-                <!-- logo -->
-                <div class="logo">
-                    <a href="#">
-                        <div class="svg-logo">
-                          <svg version="1.1" id="svg-logo" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-                          width="100%" height="100%" viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
-
-                            <g>
-                              <polygon fill="#DE1A27" points="72.068,28.449 191.928,97.65 72.068,166.852  "/>
-                              <polygon fill="#ED6E27" points="191.928,104.524 72.068,173.725 191.928,242.926  "/>
-                              <polygon fill="#E42B93" points="199.069,104.523 318.929,173.725 199.069,242.926   "/>
-                              <polygon fill="#AD2088" points="318.929,180.599 199.069,249.799 318.929,319   "/>
-                              <polygon fill="#F282B4" points="326.07,180.598 445.93,249.799 326.07,319  "/>
-                              <polygon fill="#1D95CF" points="199.069,395.477 318.929,326.275 199.069,257.074   "/>
-                              <polygon fill="#95C441" points="191.928,395.476 72.068,326.275 191.928,257.074   "/>
-                              <polygon fill="#66CCE2" points="72.068,471.551 191.928,402.35 72.068,333.148  "/>
-                              <polygon fill="#FFD726" points="54.07,180.598 173.93,249.799 54.07,319  "/>
-                            </g>
-
-                          </svg>
-                        </div>
-                        <span>Screenplify</span>
-                    </a>
-                </div>
-                <!--End logo-->
-
-                <!-- Navigation Menu -->
-                <nav class='navigation'>
-                    <ul>
-                        <li>
-                            <a href="index.php">Home</a>
-                        </li>
-
-                        <li class="nav-has-sub">
-                            <a href="features.html">Features</a>
-                        </li>
-                        
-                        <li>
-                            <a href="spark.php">Spark</a>
-                        </li>
-                        
-                        <li>
-                            <a href="portfolio.php">Portfolio</a>
-                            <!-- Nav Dropdown -->
-                            <!-- <ul class="nav-dropdown">
-                                <li><a href="portfolio.php/#clients">Clients</a></li>
-                                <li><a href="portfolio.php/#partners">Partners</a></li>
-                                <li><a href="portfolio.php/#gallery">Gallery</a></li>
-                            </ul> -->
-                            <!-- End Nav Dropdown -->
-                        </li>
-                        
-                        <li>
-                            <a href="blog.php">Blog</a>
-                        </li>
-                        
-                        <li>
-                            <a>FAQ</a>
-                        </li>
-
-                        <li>
-                            <a href="contact.php">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
-                <!--End Navigation Menu -->
-
-            </div>
-        </header>
-        <!-- END HEADER -->
+        <?php include('../header.php'); ?>
 
         <!-- CONTENT --------------------------------------------------------------------------------->
 
@@ -122,7 +49,7 @@
                 <div class="row title">
                     <h2 class="h2">Blog</h2>
                     <div class="page-breadcrumb">
-                        <a href="index.php">Home</a>/<a href="blog.php">Blog</a>/<span>Image Post</span>
+                        <a href="index.php">Home</a>/<a href="blog.php">Blog</a>/<span>Smart Digital Signage</span>
                     </div>
                 </div>
             </div>
@@ -137,52 +64,51 @@
                     <!-- Post Bar -->
                     <div class="col-lg-9 col-md-9 blog-post-hr">
                         <div class="blog-post mb-30">
-                            <div class="post-meta"><span>by <a>John Doe</a>,</span> <span>March 16, 2015</span></div>
+                            <div class="post-meta"><span>by <a>Amira Gentapa</a>,</span> <span>March 16, 2016</span></div>
 
                             <div class="post-header">
-                                <h2>Maecenas nec odio ante varcy tincidunt.</h2>
+                                <h2>Smart Digital Signage.</h2>
                             </div>
 
                             <div class="post-media">
-                                <img alt="" src="../img/full/28.jpg">
+                                <blockquote>
+                                    Now that almost any information we want is at our disposal, technologies are evolving from the age of information to the age of intelligence.
+                                </blockquote>
                             </div>
 
                             <div class="post-entry">
-                                <p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
-                                <p>similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
-                                <blockquote>
-                                    We're not leaving here without Buster, man. Leave no crash-test dummy behind nihil impedit quo minus id quod maxime placeat facere!
-                                </blockquote>
-                                <p class="lead">Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
-                                <ul>
-                                    <li>Excepturi sint occaecati cupiditate</li>
-                                    <li>Molestias excepturi sint</li>
-                                    <li>Similique sunt in culpa qui officia</li>
-                                    <li>Deserunt mollitia animi</li>
-                                </ul>
-                                <p>similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+                                <p>
+                                In recent years, digital signage technologies have taken over traditional, static, and let’s admit it, boring, signage. Digital signage is proven to be more cost-effective and flexible than other forms of visual communications. The main purpose for businesses to employ digital signage is to attract viewers’ attention, create ambience, inform, educate, and influence purchase decision at point of sale, point of wait, and point of transit environments. 
+                                </p>
+
+                                <p>
+                                In this era of rapidly advancing technology, businesses tend to join the tech-savvy bandwagon and take advantage of the latest cutting-edge technologies in order to be a step ahead of their competitors.
+                                </p>
+
+                                <p>
+                                With the internet, the average person has access to unsurmountable quantities of information, which we can use to process any which way we choose to. Now that almost any information we want is at our disposal, technologies are evolving from the age of information to the age of intelligence, whereby your screens, whether it be monitors or mobiles, processes the information for you, to give you deeper insights on the things you wish to know about.
+                                </p>
+
+                                <p>
+                                Here’s where “Smart Signage” comes into the picture, whereby, as a viewer/audience/customer, the information you want to know is conveniently available at a quick glance at the digital signage display.
+                                </p>
+
+                                <p>
+                                For instances, let’s say you attend a large-scale conference, holding several simultaneous talks ranging across different topics. Normally, an agenda or programme brochure will be handed to you upon arrival at the venue and this shall be your guide for the rest of the day. You flip through the pages, skip through sponsor ads, get distracted by an article, all on the way to finding out when and where the talks that you wish to join will be held in. By the end of the day, your handy brochure, if you hadn’t lost it yet, is tattered and rolled up as a sign that it had served you well.
+                                </p>
+
+                                <p>
+                                On the other hand, if said conference furnished the venue with “Smart Signage” such as Spark screens in each section of their venue, a simple glance at the display not only tells the audience what time the next item on the agenda is, but also calculates how much time there is for the next one to begin and how many minutes in the current one is, and displays this information to you immaculately.
+                                <br/>
+                                As the event organizer, you’ve not only livened up your venue by making it look more professional and organized with smart, and vibrant information screens, but you have also pleased your audience by making it very easy, convenient, and efficient for them to find their way around the exhibition.
+                                </p>
+
+                                <p>
+                                Smart Signage is the next big thing for digital signage and using our complete signage solutions at Screenplify is all you’ll need to get from the design board to deployment in the simplest way possible.
+                                </p>
                             </div>
 
-                            <div class="post-tag pull-left"><span><a>Branding</a>,</span><span><a>Design</a></span></div>
-                        </div>
-
-                        <hr />
-
-                        <div class="post-author">
-                            <div class="post-author-img pull-left">
-                                <img alt="author" src="../img/user-av.jpg">
-                            </div>
-                            <div class="post-author-details pull-left">
-                                <h6>John Doe</h6>
-                                <ul class="social">
-                                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.dribbble.com/" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-                                    <li><a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
-                                    <li><a href="https://www.behance.net/" target="_blank"><i class="fa fa-behance"></i></a></li>
-                                </ul>
-
-                            </div>
+                            <!-- <div class="post-tag pull-left"><span><a>Branding</a>,</span><span><a>Design</a></span></div> -->
                         </div>
 
 
@@ -270,33 +196,7 @@
 
         <!-- End CONTENT ------------------------------------------------------------------------------>
 
-        <!--Footer Section-->
-        <footer id="footer" class="footer ptb-80 gray-bg">
-            <div class="container text-center">
-
-                <!-- Copyright -->
-                <p class="copyright mb-25">
-                    &copy; 2016 <a href="http://www.ounch.com"><b>Ounch Sdn Bhd</b></a>. All Rights Reserved.<br>
-                </p>
-                <!-- Copyright -->
-
-                <!-- Social -->
-                <ul class="social">
-                    <li>
-                        <a href="https://www.facebook.com/ounch" target="_blank"><i class="fa fa-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/screenplify" target="_blank"><i class="fa fa-instagram"></i></a>
-                    </li>
-                    <li>
-                        <a href="https://www.twitter.com/ounchupdates" target="_blank"><i class="fa fa-twitter"></i></a>
-                    </li>
-                </ul>
-                <!-- End Social -->
-
-            </div>
-        </footer>
-        <!-- End Footer Section-->
+        <?php include('../footer.php'); ?>
 
         <!-- Scroll Top -->
         <a class="scroll-top">

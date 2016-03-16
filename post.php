@@ -2,8 +2,14 @@
 
 include('db.php'); 
 if($_GET){
-    $_GET['cat'] ? $category = $_GET['cat'] : '';
-    //echo $category;
+    $_GET['title'] ? $title = $_GET['title'] : '';
+    // echo $title;
+    // exit;
+    $sql="SELECT*FROM tbl_post WHERE url_title = '".$title."'";
+    $result=mysql_query($sql) or die (mysql_error());
+    
+    $row=mysql_fetch_array($result);
+    
 }
 
 ?>
@@ -59,7 +65,7 @@ if($_GET){
                 <div class="row title">
                     <h2 class="h2">Blog</h2>
                     <div class="page-breadcrumb">
-                        <a href="index">Home</a>/<a href="blog">Blog</a>/<span>Image Post</span>
+                        <a href="index">Home</a>/<a href="/screenplify2/blog">Blog</a>/<span><?php echo $row['title']; ?></span>
                     </div>
                 </div>
             </div>
@@ -74,10 +80,10 @@ if($_GET){
                     <!-- Post Bar -->
                     <div class="col-lg-9 col-md-9 blog-post-hr">
                         <div class="blog-post mb-30">
-                            <div class="post-meta"><span>by <a>John Doe</a>,</span> <span>March 16, 2015</span></div>
+                            <div class="post-meta"><span>by <a><?php echo $row['author']; ?></a>,</span> <span><?php echo date("F j, Y", $row['created_datetime']); ?></span></div>
 
                             <div class="post-header">
-                                <h2>Maecenas nec odio ante varcy tincidunt.</h2>
+                                <h2><?php echo $row['title']; ?>.</h2>
                             </div>
 
                             <div class="post-media">
@@ -85,41 +91,10 @@ if($_GET){
                             </div>
 
                             <div class="post-entry">
-                                <p>Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
-                                <p>similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
-                                <blockquote>
-                                    We're not leaving here without Buster, man. Leave no crash-test dummy behind nihil impedit quo minus id quod maxime placeat facere!
-                                </blockquote>
-                                <p class="lead">Praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
-                                <ul>
-                                    <li>Excepturi sint occaecati cupiditate</li>
-                                    <li>Molestias excepturi sint</li>
-                                    <li>Similique sunt in culpa qui officia</li>
-                                    <li>Deserunt mollitia animi</li>
-                                </ul>
-                                <p>similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.</p>
+                                <?php echo $row['text']; ?>
                             </div>
 
-                            <div class="post-tag pull-left"><span><a>Branding</a>,</span><span><a>Design</a></span></div>
-                        </div>
-
-                        <hr />
-
-                        <div class="post-author">
-                            <div class="post-author-img pull-left">
-                                <img alt="author" src="../img/user-av.jpg">
-                            </div>
-                            <div class="post-author-details pull-left">
-                                <h6>John Doe</h6>
-                                <ul class="social">
-                                    <li><a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="https://www.twitter.com/" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="https://www.dribbble.com/" target="_blank"><i class="fa fa-dribbble"></i></a></li>
-                                    <li><a href="https://www.pinterest.com/" target="_blank"><i class="fa fa-pinterest"></i></a></li>
-                                    <li><a href="https://www.behance.net/" target="_blank"><i class="fa fa-behance"></i></a></li>
-                                </ul>
-
-                            </div>
+                            <!-- <div class="post-tag pull-left"><span><a>Branding</a>,</span><span><a>Design</a></span></div> -->
                         </div>
 
 

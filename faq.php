@@ -68,7 +68,6 @@
                 	</p>
                 </div>
                 <div class="spacer-75"></div>
-                <hr />
                 <div class="row">
                 	<h2>Why choose screenplify?</h2>
                 	<p>
@@ -85,14 +84,13 @@
                     </ul>
                 </div>
                 <div class="spacer-75"></div>
-                <hr />
-                <div class="row">
-                	<h2>How much would it cost me?</h2>
-                </div>
-                <div class="spacer-75"></div>
-                <hr />
                 <div class="row">
                 	<h2>What kind of screens can be used for digital signage?</h2>
+                    <p>
+                        Screenplify works reliably on a vast range of screen types regardless of their aspect ratio, orientation, or screen resolution.
+                        As your screen layout and designs are completely customized according to your preference, it is simple to achieve high-definition vibrant screen displays to fit any screen resolution.
+                        Read more about screens <a href="hardware">here</a>. 
+                    </p>
                 </div>
             </div>
         </section>
