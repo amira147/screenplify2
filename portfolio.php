@@ -10,19 +10,19 @@
     <!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
 
     <!-- Favicone Icon -->
-    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
-    <link rel="icon" type="image/png" href="img/favicon.png">
-    <link rel="apple-touch-icon" href="img/favicon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="/img/favicon.ico">
+    <link rel="icon" type="image/png" href="/img/favicon.png">
+    <link rel="apple-touch-icon" href="/img/favicon.png">
 
     <!-- CSS -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" />
-    <link href="css/bootstrap.css" rel="stylesheet" type="text/css" />
-    <link href="css/font-awesome.css" rel="stylesheet" type="text/css" />
-    <link href="css/ionicons.css" rel="stylesheet" type="text/css" />
-    <link href="css/plugin/jPushMenu.css" rel="stylesheet" type="text/css" />
-    <link href="css/plugin/animate.css" rel="stylesheet" type="text/css" />
-    <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" />
-    <link href="css/app-logo-animate.css" rel="stylesheet" type="text/css" />
+    <link href="/css/style.css" rel="stylesheet" type="text/css" />
+    <link href="/css/bootstrap.css" rel="stylesheet" type="text/css" />
+    <link href="/css/font-awesome.css" rel="stylesheet" type="text/css" />
+    <link href="/css/ionicons.css" rel="stylesheet" type="text/css" />
+    <link href="/css/plugin/jPushMenu.css" rel="stylesheet" type="text/css" />
+    <link href="/css/plugin/animate.css" rel="stylesheet" type="text/css" />
+    <link href="/css/jquery-ui.css" rel="stylesheet" type="text/css" />
+    <link href="/css/app-logo-animate.css" rel="stylesheet" type="text/css" />
 
 </head>
 
@@ -49,7 +49,7 @@
                 <div class="row title">
                     <h2 class="h2">Portfolio</h2>
                     <div class="page-breadcrumb">
-                        <a href="portfolio">Home</a>/<span>Portfolio</span>
+                        <a href="/portfolio">Home</a>/<span>Portfolio</span>
                     </div>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                     ?>
 
                     <div class="col-md-4">
-                        <img src="<?php echo $filepath;?>" class="center-block" />
+                        <img src="/<?php echo $filepath;?>" class="center-block" />
                     </div>
                     
                     <?php } ?>
@@ -132,15 +132,15 @@
                 <div class="spacer-75"></div>
                 <div class="row">
                     <div class="partner-logo col-md-4 ">
-                        <img src="img/partners/intel.png" class="center-block" />
+                        <img src="/img/partners/intel.png" class="center-block" />
                     </div>
                     
                     <div class="partner-logo col-md-4 ">
-                        <img src="img/partners/focusmedia.png" class="center-block" />
+                        <img src="/img/partners/focusmedia.png" class="center-block" />
                     </div>
                     
                     <div class="partner-logo col-md-4 ">
-                        <img src="img/partners/vsign.png" class="center-block" />
+                        <img src="/img/partners/vsign.png" class="center-block" />
                     </div>
                 </div>
                 
@@ -148,13 +148,13 @@
                 
                 <div class="row">
                     <div class="partner-logo col-md-4 ">
-                        <img src="img/partners/armodilo.png" class="center-block" />
+                        <img src="/img/partners/armodilo.png" class="center-block" />
                     </div>
                     <div class="partner-logo col-md-4 ">
-                        <img src="img/partners/omniphics.png" class="center-block" />
+                        <img src="/img/partners/omniphics.png" class="center-block" />
                     </div>
                     <div class="partner-logo col-md-4 ">
-                        <img src="img/partners/tpm.png" class="center-block" style="width: 270px;" />
+                        <img src="/img/partners/tpm.png" class="center-block" style="width: 270px;" />
                     </div>
                 </div>
             </div>
@@ -196,8 +196,8 @@
 
                             <div class="nf-item branding coffee spacing">
                                 <div class="item-box">
-                                    <a class="cbox-gallary1" href="img/gallery/<?php echo $filename; ?>" title="<?php echo $caption_array[$pathinfo['filename']]; ?>">
-                                        <img alt="1" src="img/gallery/<?php echo $filename; ?>" class="item-container">
+                                    <a class="cbox-gallary1" href="/img/gallery/<?php echo $filename; ?>" title="<?php echo $caption_array[$pathinfo['filename']]; ?>">
+                                        <img alt="1" src="/img/gallery/<?php echo $filename; ?>" class="item-container">
                                         <div class="item-mask">
                                             <div class="item-caption">
                                                 <h5 class="white"><?php echo $caption_array[$pathinfo['filename']]; ?></h5>
@@ -235,30 +235,30 @@
 
     <!-- JS -->
 
-    <script src="js/jquery-1.11.2.min.js" type="text/javascript"></script>
-    <script src="js/jquery-ui.min.js" type="text/javascript"></script>
-    <script src="js/plugin/jquery.easing.js" type="text/javascript"></script>
-    <script src="js/bootstrap.min.js" type="text/javascript"></script>
-    <script src="js/plugin/jquery.flexslider.js" type="text/javascript"></script>
-    <script src="js/plugin/background-check.min.js" type="text/javascript"></script>
-    <script src="js/plugin/jquery.fitvids.js" type="text/javascript"></script>
-    <script src="js/plugin/jquery.viewportchecker.js" type="text/javascript"></script>
-    <script src="js/plugin/jquery.stellar.min.js" type="text/javascript"></script>
-    <script src="js/plugin/wow.min.js" type="text/javascript"></script>
-    <script src="js/plugin/instafeed.min.js" type="text/javascript"></script>
-    <script src="js/plugin/jquery.colorbox-min.js" type="text/javascript"></script>
-    <script src="js/plugin/owl.carousel.min.js" type="text/javascript"></script>
-    <script src="js/plugin/isotope.pkgd.min.js" type="text/javascript"></script>
-    <script src="js/plugin/masonry.pkgd.min.js" type="text/javascript"></script>
-    <script src="js/plugin/imagesloaded.pkgd.min.js" type="text/javascript"></script>
-    <script src="js/plugin/jPushMenu.js" type="text/javascript"></script>
-    <script src="js/plugin/jquery.fs.tipper.min.js" type="text/javascript"></script>
-    <script src="js/plugin/mediaelement-and-player.min.js"></script>
-    <script src="js/plugin/jquery.validate.min.js" type="text/javascript"></script>
-    <script src="js/theme.js" type="text/javascript"></script>
-    <script src="js/navigation.js" type="text/javascript"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
-    <script type="text/javascript" src="js/map.js"></script>
-    <script src="js/contact-form.js" type="text/javascript"></script>
+    <script src="/js/jquery-1.11.2.min.js" type="text/javascript"></script>
+    <script src="/js/jquery-ui.min.js" type="text/javascript"></script>
+    <script src="/js/plugin/jquery.easing.js" type="text/javascript"></script>
+    <script src="/js/bootstrap.min.js" type="text/javascript"></script>
+    <script src="/js/plugin/jquery.flexslider.js" type="text/javascript"></script>
+    <script src="/js/plugin/background-check.min.js" type="text/javascript"></script>
+    <script src="/js/plugin/jquery.fitvids.js" type="text/javascript"></script>
+    <script src="/js/plugin/jquery.viewportchecker.js" type="text/javascript"></script>
+    <script src="/js/plugin/jquery.stellar.min.js" type="text/javascript"></script>
+    <script src="/js/plugin/wow.min.js" type="text/javascript"></script>
+    <script src="/js/plugin/instafeed.min.js" type="text/javascript"></script>
+    <script src="/js/plugin/jquery.colorbox-min.js" type="text/javascript"></script>
+    <script src="/js/plugin/owl.carousel.min.js" type="text/javascript"></script>
+    <script src="/js/plugin/isotope.pkgd.min.js" type="text/javascript"></script>
+    <script src="/js/plugin/masonry.pkgd.min.js" type="text/javascript"></script>
+    <script src="/js/plugin/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+    <script src="/js/plugin/jPushMenu.js" type="text/javascript"></script>
+    <script src="/js/plugin/jquery.fs.tipper.min.js" type="text/javascript"></script>
+    <script src="/js/plugin/mediaelement-and-player.min.js"></script>
+    <script src="/js/plugin/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="/js/theme.js" type="text/javascript"></script>
+    <script src="/js/navigation.js" type="text/javascript"></script>
+    <script type="text/javascript" src="/https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script type="text/javascript" src="/js/map.js"></script>
+    <script src="/js/contact-form.js" type="text/javascript"></script>
 </body>
 </html>

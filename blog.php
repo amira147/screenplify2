@@ -108,7 +108,7 @@ include('utility.php')
                                         <?php echo truncate($row['text'], 300); ?>
                                     </div>
                                     <!-- <div class="post-tag pull-left"><span><a>Branding</a>,</span><span><a>Design</a></span></div> -->
-                                    <div class="post-more-link pull-right"><a href="post/<?php echo $row['url_title']; ?>">Read More<i class="fa fa-long-arrow-right right"></i></a></div>
+                                    <div class="post-more-link pull-right"><a href="blog/<?php echo $row['url_title']; ?>">Read More<i class="fa fa-long-arrow-right right"></i></a></div>
                                 </div>
 
                                 <?php
@@ -137,6 +137,7 @@ include('utility.php')
                     <!-- End Post Item -->
 
                     <!-- Sidebar -->
+                    <?php /*
                     <div class="col-lg-3 col-md-3 mt-sm-60">
 
                         <div class="sidebar-widget">
@@ -191,6 +192,7 @@ include('utility.php')
                         </div>
 
                     </div>
+                    */ ?>
                     <!-- End Sidebar -->
                 </div>
             </div>

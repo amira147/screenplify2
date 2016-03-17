@@ -5,9 +5,16 @@ if($_GET){
     $_GET['title'] ? $title = $_GET['title'] : '';
     // echo $title;
     // exit;
+
+    $query="SELECT * FROM tbl_post WHERE status_id='2'";
+    $query_result = mysql_query($query) or die(mysql_error());
+    $rowcount=mysql_num_rows($query_result);
+
     $sql="SELECT*FROM tbl_post WHERE url_title = '".$title."'";
     $result=mysql_query($sql) or die (mysql_error());
     
+    mysql_close();
+
     $row=mysql_fetch_array($result);
     
 }
@@ -87,7 +94,7 @@ if($_GET){
                             </div>
 
                             <div class="post-media">
-                                <img alt="" src="../img/full/28.jpg">
+                                <img alt="" src="../<?php echo $row['media_link']; ?>">
                             </div>
 
                             <div class="post-entry">
@@ -102,6 +109,7 @@ if($_GET){
                     <!-- End Post Bar -->
 
                     <!-- Sidebar -->
+                    <?php /*
                     <div class="col-lg-3 col-md-3 mt-sm-30">
 
                         <div class="sidebar-widget">
@@ -148,12 +156,14 @@ if($_GET){
                         </div>
 
                     </div>
+                    */ ?>
                     <!-- End Sidebar -->
                 </div>
             </div>
         </section>
         <!-- End Blog Post Section -->
 
+        <?php if($rowcount > 1){ ?>
         <!-- Post Next Prev Bar -->
         <section class="mb-60">
             <div class="container">
@@ -179,6 +189,7 @@ if($_GET){
             </div>
         </section>
         <!-- End Post Next Prev Bar -->
+        <?php } ?>
 
         <!-- End CONTENT ------------------------------------------------------------------------------>
 
