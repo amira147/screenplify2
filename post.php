@@ -91,7 +91,7 @@ if($_GET){
                             </div>
 
                             <div class="post-entry">
-                                <?php echo $row['text']; ?>
+                                <?php echo $row['post_html']; ?>
                             </div>
 
                             <!-- <div class="post-tag pull-left"><span><a>Branding</a>,</span><span><a>Design</a></span></div> -->

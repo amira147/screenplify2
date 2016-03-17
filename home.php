@@ -135,7 +135,7 @@
                         <div class="col-md-3 col-sm-6 mb-45">
                             <div class="page-icon-top"><i class="ion ion-ios-monitor-outline"></i></div>
                             <h5 class="features-title">Media Player</h5>
-                            <p>A reliable playback system that will play 24 hours a day and 365 days a year.</p>
+                            <p>A reliable playback system that will display your screen designs 24 hours a day and 365 days a year.</p>
                         </div>
                         <div class="col-md-3 col-sm-6 mb-45">
                             <div class="page-icon-top"><i class="ion ion-stats-bars"></i></div>

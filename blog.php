@@ -74,7 +74,7 @@ include('utility.php')
                             <div class="col-md-12 blog-post-hr">
 
                                 <?php
-                                $sql="SELECT*FROM tbl_post";
+                                $sql="SELECT*FROM tbl_post WHERE status_id = '2'";
                                 $result=mysql_query($sql) or die (mysql_error());
                                 
                                 while ($row=mysql_fetch_array($result))
@@ -167,7 +167,7 @@ include('utility.php')
                             <ul class="widget-post">
                                 <?php
 
-                                $sql="SELECT*FROM tbl_post";
+                                $sql="SELECT*FROM tbl_post WHERE status_id = '2'";
                                 $result=mysql_query($sql) or die (mysql_error());
                                 mysql_close();
                                 // print_r($result);
